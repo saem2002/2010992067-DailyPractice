@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg,#0065e9,#23a6d5,#23d5ab,#23a6d5,#23d5ab);
+    background-size: 400% 400%; 
+    animation: Animation 7s ease infinite;
+   
+}
+
+@keyframes Animation { 
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#heads{
+    margin-top: 3rem ;
+    font-size: 3.2rem;
+    text-shadow:0.7px 0.7px white;
+    font-family: system-ui;
+}
+
+#div1{
+    background-image:linear-gradient(to right,   #4C516D,whitesmoke);
+    height:0px;
+    width: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    transition: all 4s ease;
+    
+}
+
+#divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#digits{
+   padding: 1rem 1rem;
+   text-align: center;
+   font-size:1.5rem;
+   width: 24rem;
+   border-radius: 10px;
+   border: black solid 3px;
+}
+#btn{
+   
+    height: 3rem;
+    width:14rem;
+    font-size:1.1rem ;
+    font-family: system-ui;
+    background: linear-gradient(60deg,black,white);
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: black solid 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px whitesmoke;
+    
+}
